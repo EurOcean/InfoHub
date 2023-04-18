@@ -1,0 +1,35 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Google.org (GOOG)",
+  "email": "secretariat(at)google.org",
+  "telephone": "( 33 1) 42 68 53 00",
+  "faxNumber": "( 33 1) 42 68 53 01",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "38 avenue de l'Opera",
+    "postalCode": "F-75002",
+    "addressLocality": "Paris, France"
+  },
+  "member": [
+    {
+      "@type": "Organization"
+    },
+    {
+      "@type": "Organization"
+    }
+  ],
+  "alumni": [
+    {
+      "@type": "Person",
+      "name": "Jack Dan"
+    },
+    {
+      "@type": "Person",
+      "name": "John Smith"
+    }
+  ],
+  
+}
+</script>

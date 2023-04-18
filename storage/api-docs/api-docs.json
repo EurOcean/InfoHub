@@ -1,0 +1,263 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "EuroOcean API",
+        "description": "API connection",
+        "contact": {
+            "email": "dev@euroocen.org"
+        },
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "http://localhost:8000/api/v1",
+            "description": "EuroOcean API V1"
+        }
+    ],
+    "paths": {
+        "/": {}
+    },
+    "components": {
+        "schemas": {
+            "Project": {
+                "title": "Project",
+                "description": "Project model",
+                "properties": {
+                    "id": {
+                        "title": "ID",
+                        "description": "ID",
+                        "type": "integer",
+                        "format": "int64",
+                        "example": 1
+                    },
+                    "source_ID": {
+                        "title": "Source ID",
+                        "description": "Source id of the project",
+                        "type": "string"
+                    },
+                    "RID": {
+                        "title": "RID",
+                        "description": "ID RID",
+                        "type": "integer"
+                    },
+                    "contractNumber": {
+                        "title": "Contract Number",
+                        "description": "Contract number of the project",
+                        "type": "string"
+                    },
+                    "acronym": {
+                        "title": "Acronym",
+                        "description": "Acronym of the project",
+                        "type": "string"
+                    },
+                    "title": {
+                        "title": "Title",
+                        "description": "Title of the project",
+                        "type": "string"
+                    },
+                    "programmeID": {
+                        "title": "Programme ID",
+                        "description": "Programme ID of the project",
+                        "type": "integer"
+                    },
+                    "startDate": {
+                        "title": "Start date",
+                        "description": "Start date of the project",
+                        "type": "string",
+                        "format": "date"
+                    },
+                    "endDate": {
+                        "title": "End date",
+                        "description": "End date of the project",
+                        "type": "string",
+                        "format": "date"
+                    },
+                    "projectFunding": {
+                        "title": "Project Funding",
+                        "description": "Project funding of the project"
+                    },
+                    "summary": {
+                        "title": "Summary",
+                        "description": "Summary funding of the project",
+                        "type": "string"
+                    },
+                    "webSite": {
+                        "title": "Web Site",
+                        "description": "Website funding of the project",
+                        "type": "string"
+                    },
+                    "informationSource": {
+                        "title": "Information Source",
+                        "description": "Information source funding of the project",
+                        "type": "string"
+                    },
+                    "onlineStatus": {
+                        "title": "Online Status",
+                        "description": "Online status of the project",
+                        "type": "string"
+                    },
+                    "adminNotes": {
+                        "title": "Admin Notes",
+                        "description": "Admin notes of the project",
+                        "type": "string"
+                    },
+                    "created": {
+                        "title": "Created",
+                        "description": "Project Created",
+                        "type": "string"
+                    },
+                    "createdBy": {
+                        "title": "createdBy",
+                        "description": "Project created by",
+                        "type": "integer"
+                    },
+                    "lastUpdt": {
+                        "title": "lastUpdt",
+                        "description": "Last Update",
+                        "type": "string"
+                    }
+                },
+                "type": "object",
+                "xml": {
+                    "name": "Project"
+                }
+            },
+            "ProjectResource": {
+                "title": "ProjectResource",
+                "description": "Project resource",
+                "properties": {
+                    "data": {
+                        "title": "Data",
+                        "description": "Data wrapper",
+                        "type": "array",
+                        "items": {}
+                    }
+                },
+                "type": "object",
+                "xml": {
+                    "name": "ProjectResource"
+                }
+            },
+            "StoreProjectRequest": {
+                "title": "Store Project request",
+                "description": "Store Project request body data",
+                "required": [
+                    "name"
+                ],
+                "properties": {
+                    "id": {
+                        "title": "ID",
+                        "description": "ID",
+                        "type": "integer",
+                        "format": "int64",
+                        "example": 1
+                    },
+                    "source_ID": {
+                        "title": "Source ID",
+                        "description": "Source id of the project",
+                        "type": "string"
+                    },
+                    "RID": {
+                        "title": "RID",
+                        "description": "ID RID",
+                        "type": "integer"
+                    },
+                    "contractNumber": {
+                        "title": "Contract Number",
+                        "description": "Contract number of the project",
+                        "type": "string"
+                    },
+                    "acronym": {
+                        "title": "Acronym",
+                        "description": "Acronym of the project",
+                        "type": "string"
+                    },
+                    "title": {
+                        "title": "Title",
+                        "description": "Title of the project",
+                        "type": "string"
+                    },
+                    "programmeID": {
+                        "title": "Programme ID",
+                        "description": "Programme ID of the project",
+                        "type": "integer"
+                    },
+                    "startDate": {
+                        "title": "Start date",
+                        "description": "Start date of the project",
+                        "type": "string",
+                        "format": "date"
+                    },
+                    "endDate": {
+                        "title": "End date",
+                        "description": "End date of the project",
+                        "type": "string",
+                        "format": "date"
+                    },
+                    "projectFunding": {
+                        "title": "Project Funding",
+                        "description": "Project funding of the project"
+                    },
+                    "summary": {
+                        "title": "Summary",
+                        "description": "Summary funding of the project",
+                        "type": "string"
+                    },
+                    "webSite": {
+                        "title": "Web Site",
+                        "description": "Website funding of the project",
+                        "type": "string"
+                    },
+                    "informationSource": {
+                        "title": "Information Source",
+                        "description": "Information source funding of the project",
+                        "type": "string"
+                    },
+                    "onlineStatus": {
+                        "title": "Online Status",
+                        "description": "Online status of the project",
+                        "type": "string"
+                    },
+                    "adminNotes": {
+                        "title": "Admin Notes",
+                        "description": "Admin notes of the project",
+                        "type": "string"
+                    },
+                    "created": {
+                        "title": "Created",
+                        "description": "Project Created",
+                        "type": "string"
+                    },
+                    "createdBy": {
+                        "title": "createdBy",
+                        "description": "Project created by",
+                        "type": "integer"
+                    },
+                    "lastUpdt": {
+                        "title": "lastUpdt",
+                        "description": "Last Update",
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "Projects",
+            "description": "API Endpoints of Projects"
+        },
+        {
+            "name": "Vessels",
+            "description": "API Endpoints of Vessels"
+        },
+        {
+            "name": "Organizations",
+            "description": "API Endpoints of Organizations"
+        }
+    ],
+    "security": [
+        []
+    ]
+}

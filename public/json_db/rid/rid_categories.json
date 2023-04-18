@@ -1,0 +1,492 @@
+[
+  {
+    "ID_Category": "CAT001",
+    "Category": "Research vessels",
+    "Parent_ID_Category": null
+  },
+  {
+    "ID_Category": "CAT002",
+    "Category": "Underwater vehicles and large equipment",
+    "Parent_ID_Category": null
+  },
+  {
+    "ID_Category": "CAT003",
+    "Category": "Mobile ocean observatories",
+    "Parent_ID_Category": null
+  },
+  {
+    "ID_Category": "CAT004",
+    "Category": "Satellites for seas and oceans observation",
+    "Parent_ID_Category": null
+  },
+  {
+    "ID_Category": "CAT005",
+    "Category": "Flumes and test labs for ocean engineering",
+    "Parent_ID_Category": null
+  },
+  {
+    "ID_Category": "CAT006",
+    "Category": "Marine biology stations",
+    "Parent_ID_Category": null
+  },
+  {
+    "ID_Category": "CAT007",
+    "Category": "Other",
+    "Parent_ID_Category": null
+  },
+  {
+    "ID_Category": "CAT008",
+    "Category": "Fixed point open ocean observatories",
+    "Parent_ID_Category": null
+  },
+  {
+    "ID_Category": "CAT009",
+    "Category": "Aquaculture research facilities",
+    "Parent_ID_Category": null
+  },
+  {
+    "ID_Category": "CAT010",
+    "Category": "Marine mesocosms facilities",
+    "Parent_ID_Category": null
+  },
+  {
+    "ID_Category": "CAT011",
+    "Category": "In situ test sites for ocean renewable energy",
+    "Parent_ID_Category": null
+  },
+  {
+    "ID_Category": "CAT012",
+    "Category": "Deep ocean drilling research facilities",
+    "Parent_ID_Category": null
+  },
+  {
+    "ID_Category": "CAT013",
+    "Category": "Marine data providers",
+    "Parent_ID_Category": null
+  },
+  {
+    "ID_Category": "CAT014",
+    "Category": "Basins",
+    "Parent_ID_Category": null
+  },
+  {
+    "ID_Category": "CAT015",
+    "Category": "Coastal observatories",
+    "Parent_ID_Category": null
+  },
+  {
+    "ID_Category": "SCAT001001",
+    "Category": "Local/Coastal",
+    "Parent_ID_Category": "CAT001"
+  },
+  {
+    "ID_Category": "SCAT001002",
+    "Category": "Regional",
+    "Parent_ID_Category": "CAT001"
+  },
+  {
+    "ID_Category": "SCAT001003",
+    "Category": "Oceanic",
+    "Parent_ID_Category": "CAT001"
+  },
+  {
+    "ID_Category": "SCAT001004",
+    "Category": "Global",
+    "Parent_ID_Category": "CAT001"
+  },
+  {
+    "ID_Category": "SCAT002001",
+    "Category": "AUV",
+    "Parent_ID_Category": "CAT002"
+  },
+  {
+    "ID_Category": "SCAT002002",
+    "Category": "Camera",
+    "Parent_ID_Category": "CAT002"
+  },
+  {
+    "ID_Category": "SCAT002003",
+    "Category": "Corer",
+    "Parent_ID_Category": "CAT002"
+  },
+  {
+    "ID_Category": "SCAT002004",
+    "Category": "Deep diving system",
+    "Parent_ID_Category": "CAT002"
+  },
+  {
+    "ID_Category": "SCAT002005",
+    "Category": "Hybrid ROV-AUV",
+    "Parent_ID_Category": "CAT002"
+  },
+  {
+    "ID_Category": "SCAT002006",
+    "Category": "Manned submersible",
+    "Parent_ID_Category": "CAT002"
+  },
+  {
+    "ID_Category": "SCAT002007",
+    "Category": "Multichannel Seismic System",
+    "Parent_ID_Category": "CAT002"
+  },
+  {
+    "ID_Category": "SCAT002008",
+    "Category": "Plankton sampling equipment",
+    "Parent_ID_Category": "CAT002"
+  },
+  {
+    "ID_Category": "SCAT002009",
+    "Category": "ROV",
+    "Parent_ID_Category": "CAT002"
+  },
+  {
+    "ID_Category": "SCAT002010",
+    "Category": "Sea floor drill rig",
+    "Parent_ID_Category": "CAT002"
+  },
+  {
+    "ID_Category": "SCAT002011",
+    "Category": "Seismic instruments",
+    "Parent_ID_Category": "CAT002"
+  },
+  {
+    "ID_Category": "SCAT002012",
+    "Category": "Towed camera system",
+    "Parent_ID_Category": "CAT002"
+  },
+  {
+    "ID_Category": "SCAT002013",
+    "Category": "Towed Combined Chirp/Side scan Sonar System",
+    "Parent_ID_Category": "CAT002"
+  },
+  {
+    "ID_Category": "SCAT002014",
+    "Category": "Towed side scan sonar",
+    "Parent_ID_Category": "CAT002"
+  },
+  {
+    "ID_Category": "SCAT002015",
+    "Category": "Towed vehicle with payload",
+    "Parent_ID_Category": "CAT002"
+  },
+  {
+    "ID_Category": "SCAT002016",
+    "Category": "USV",
+    "Parent_ID_Category": "CAT002"
+  },
+  {
+    "ID_Category": "SCAT002017",
+    "Category": "Water sampler",
+    "Parent_ID_Category": "CAT002"
+  },
+  {
+    "ID_Category": "SCAT002018",
+    "Category": "ASV",
+    "Parent_ID_Category": "CAT002"
+  },
+  {
+    "ID_Category": "SCAT002019",
+    "Category": "Multibeam Sonar",
+    "Parent_ID_Category": "CAT002"
+  },
+  {
+    "ID_Category": "SCAT003001",
+    "Category": "Drifters",
+    "Parent_ID_Category": "CAT003"
+  },
+  {
+    "ID_Category": "SCAT003002",
+    "Category": "FerryBox",
+    "Parent_ID_Category": "CAT003"
+  },
+  {
+    "ID_Category": "SCAT003003",
+    "Category": "Gliders",
+    "Parent_ID_Category": "CAT003"
+  },
+  {
+    "ID_Category": "SCAT003004",
+    "Category": "Oceanic profilers",
+    "Parent_ID_Category": "CAT003"
+  },
+  {
+    "ID_Category": "SCAT004001",
+    "Category": "Gradiometer",
+    "Parent_ID_Category": "CAT004"
+  },
+  {
+    "ID_Category": "SCAT004002",
+    "Category": "Imagery",
+    "Parent_ID_Category": "CAT004"
+  },
+  {
+    "ID_Category": "SCAT004003",
+    "Category": "Ocean salinity",
+    "Parent_ID_Category": "CAT005"
+  },
+  {
+    "ID_Category": "SCAT005001",
+    "Category": "Blade Testing",
+    "Parent_ID_Category": "CAT005"
+  },
+  {
+    "ID_Category": "SCAT005002",
+    "Category": "Flume",
+    "Parent_ID_Category": "CAT005"
+  },
+  {
+    "ID_Category": "SCAT005003",
+    "Category": "Gliders",
+    "Parent_ID_Category": "CAT005"
+  },
+  {
+    "ID_Category": "SCAT005004",
+    "Category": "Ice model tank",
+    "Parent_ID_Category": "CAT005"
+  },
+  {
+    "ID_Category": "SCAT005005",
+    "Category": "Immersion tank",
+    "Parent_ID_Category": "CAT005"
+  },
+  {
+    "ID_Category": "SCAT005006",
+    "Category": "Materials and structures tests",
+    "Parent_ID_Category": "CAT005"
+  },
+  {
+    "ID_Category": "SCAT005007",
+    "Category": "Natural ageing tests in marine conditions",
+    "Parent_ID_Category": "CAT005"
+  },
+  {
+    "ID_Category": "SCAT005008",
+    "Category": "Offshore wind testing",
+    "Parent_ID_Category": "CAT005"
+  },
+  {
+    "ID_Category": "SCAT005009",
+    "Category": "Pressure Tank",
+    "Parent_ID_Category": "CAT005"
+  },
+  {
+    "ID_Category": "SCAT005010",
+    "Category": "Rotating platform",
+    "Parent_ID_Category": "CAT005"
+  },
+  {
+    "ID_Category": "SCAT005011",
+    "Category": "Tank",
+    "Parent_ID_Category": "CAT005"
+  },
+  {
+    "ID_Category": "SCAT005012",
+    "Category": "Test lab",
+    "Parent_ID_Category": "CAT005"
+  },
+  {
+    "ID_Category": "SCAT005013",
+    "Category": "Test rig",
+    "Parent_ID_Category": "CAT005"
+  },
+  {
+    "ID_Category": "SCAT005014",
+    "Category": "Test section",
+    "Parent_ID_Category": "CAT005"
+  },
+  {
+    "ID_Category": "SCAT005015",
+    "Category": "Tidal testing",
+    "Parent_ID_Category": "CAT005"
+  },
+  {
+    "ID_Category": "SCAT005016",
+    "Category": "Water tank",
+    "Parent_ID_Category": "CAT005"
+  },
+  {
+    "ID_Category": "SCAT005017",
+    "Category": "Wave and current basin",
+    "Parent_ID_Category": "CAT005"
+  },
+  {
+    "ID_Category": "SCAT005018",
+    "Category": "Wave and current flume",
+    "Parent_ID_Category": "CAT005"
+  },
+  {
+    "ID_Category": "SCAT005019",
+    "Category": "Wave testing",
+    "Parent_ID_Category": "CAT005"
+  },
+  {
+    "ID_Category": "SCAT006001",
+    "Category": "Genomic facilities",
+    "Parent_ID_Category": "CAT006"
+  },
+  {
+    "ID_Category": "SCAT008001",
+    "Category": "Cabled seabed observatories",
+    "Parent_ID_Category": "CAT008"
+  },
+  {
+    "ID_Category": "SCAT008002",
+    "Category": "Mooring testing",
+    "Parent_ID_Category": "CAT008"
+  },
+  {
+    "ID_Category": "SCAT008003",
+    "Category": "Oceanic mooring",
+    "Parent_ID_Category": "CAT008"
+  },
+  {
+    "ID_Category": "SCAT008004",
+    "Category": "Seabed observatory",
+    "Parent_ID_Category": "CAT008"
+  },
+  {
+    "ID_Category": "SCAT008005",
+    "Category": "Sub-sea mooring",
+    "Parent_ID_Category": "CAT008"
+  },
+  {
+    "ID_Category": "SCAT008006",
+    "Category": "Underwater observatory ",
+    "Parent_ID_Category": "CAT008"
+  },
+  {
+    "ID_Category": "SCAT010001",
+    "Category": "Indoor mesocosm",
+    "Parent_ID_Category": "CAT010"
+  },
+  {
+    "ID_Category": "SCAT010002",
+    "Category": "Mobile mesocosm",
+    "Parent_ID_Category": "CAT010"
+  },
+  {
+    "ID_Category": "SCAT010003",
+    "Category": "Seawater pools",
+    "Parent_ID_Category": "CAT010"
+  },
+  {
+    "ID_Category": "SCAT012001",
+    "Category": "Deep borehole site",
+    "Parent_ID_Category": "CAT012"
+  },
+  {
+    "ID_Category": "SCAT013001",
+    "Category": "Data banks",
+    "Parent_ID_Category": "CAT013"
+  },
+  {
+    "ID_Category": "SCAT013002",
+    "Category": "Data collection",
+    "Parent_ID_Category": "CAT013"
+  },
+  {
+    "ID_Category": "SCAT013003",
+    "Category": "Data mapping",
+    "Parent_ID_Category": "CAT013"
+  },
+  {
+    "ID_Category": "SCAT013004",
+    "Category": "Data portal",
+    "Parent_ID_Category": "CAT013"
+  },
+  {
+    "ID_Category": "SCAT013005",
+    "Category": "Data processing",
+    "Parent_ID_Category": "CAT013"
+  },
+  {
+    "ID_Category": "SCAT013006",
+    "Category": "Numerical models",
+    "Parent_ID_Category": "CAT013"
+  },
+  {
+    "ID_Category": "SCAT013007",
+    "Category": "Webased",
+    "Parent_ID_Category": "CAT013"
+  },
+  {
+    "ID_Category": "SCAT014001",
+    "Category": "Basin",
+    "Parent_ID_Category": "CAT014"
+  },
+  {
+    "ID_Category": "SCAT014003",
+    "Category": "Wave basin",
+    "Parent_ID_Category": "CAT014"
+  },
+  {
+    "ID_Category": "SCAT014004",
+    "Category": "Wave and current basin",
+    "Parent_ID_Category": "CAT014"
+  },
+  {
+    "ID_Category": "SCAT015001",
+    "Category": "Buoy",
+    "Parent_ID_Category": "CAT015"
+  },
+  {
+    "ID_Category": "SCAT015003",
+    "Category": "Fixed pole",
+    "Parent_ID_Category": "CAT015"
+  },
+  {
+    "ID_Category": "SCAT015004",
+    "Category": "HF Radars",
+    "Parent_ID_Category": "CAT015"
+  },
+  {
+    "ID_Category": "SCAT015005",
+    "Category": "Low frequency sampling",
+    "Parent_ID_Category": "CAT015"
+  },
+  {
+    "ID_Category": "SCAT015006",
+    "Category": "Monitoring Network",
+    "Parent_ID_Category": "CAT015"
+  },
+  {
+    "ID_Category": "SCAT015007",
+    "Category": "Offshore Station",
+    "Parent_ID_Category": "CAT015"
+  },
+  {
+    "ID_Category": "SCAT015008",
+    "Category": "Sampling",
+    "Parent_ID_Category": "CAT015"
+  },
+  {
+    "ID_Category": "SCAT015009",
+    "Category": "Station",
+    "Parent_ID_Category": "CAT015"
+  },
+  {
+    "ID_Category": "SCAT015010",
+    "Category": "Subsea cabled obs.",
+    "Parent_ID_Category": "CAT015"
+  },
+  {
+    "ID_Category": "SCAT015012",
+    "Category": "Tide gauge",
+    "Parent_ID_Category": "CAT015"
+  },
+  {
+    "ID_Category": "SCAT015013",
+    "Category": "Underwater observatory",
+    "Parent_ID_Category": "CAT015"
+  },
+  {
+    "ID_Category": "SCAT015014",
+    "Category": "Sub-sea mooring",
+    "Parent_ID_Category": "CAT015"
+  },
+  {
+    "ID_Category": "SCAT015015",
+    "Category": "Cabled seabed observatories",
+    "Parent_ID_Category": "CAT015"
+  }
+]

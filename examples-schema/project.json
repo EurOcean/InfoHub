@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Project",
+
+  "contractNumber": "",
+  "acronym": "",
+  "title": "",
+  "programme": "",
+  "projectFunding": "",
+  "summary": "",
+  "webSite": "",
+  "startYear": "",
+  "endYear": "",
+
+  "participants": "",
+  "participantCountry": "",
+
+  "owns": [
+    {
+      "@type": "Organizacion",
+      "@idInstitution": "",
+    },
+    {
+      "coordinatorName": "",
+    //   "coordinatorCountry": "",
+    }
+  ],
+}
+</script>

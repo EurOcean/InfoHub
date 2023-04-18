@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Avenir-Light';
+    src: url('../fonts/AvenirLTStd-Light.eot');
+    src: url('../fonts/AvenirLTStd-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirLTStd-Light.woff2') format('woff2'),
+        url('../fonts/AvenirLTStd-Light.woff') format('woff'),
+        url('../fonts/AvenirLTStd-Light.ttf') format('truetype'),
+        url('../fonts/AvenirLTStd-Light.svg#AvenirLTStd-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir-Black';
+    src: url('../fonts/AvenirLTStd-Black.eot');
+    src: url('../fonts/AvenirLTStd-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirLTStd-Black.woff2') format('woff2'),
+        url('../fonts/AvenirLTStd-Black.woff') format('woff'),
+        url('../fonts/AvenirLTStd-Black.ttf') format('truetype'),
+        url('../fonts/AvenirLTStd-Black.svg#AvenirLTStd-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --bg-primary-blue: rgb(3, 94, 142);
+    --bg-primary-green: rgb(0, 184, 184);
+    --text-primary-blue: #035E8E;
+    --text-primaty-green: #00B8B8;
+    --font-bold: 'Avenir-Black', Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    font-family: 'Avenir-Light', Arial, Helvetica, sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6, strong{
+    font-family: 'Avenir-Black', Arial, Helvetica, sans-serif !important;
+}
+
+.font-bold{
+    font-family: var(--font-bold);
+}
+
+.bg-primary-blue{
+    background: var(--bg-primary-blue) !important;
+}
+
+.bg-primary-green{
+    background: var(--bg-primary-green) !important;
+}
+
+.text-primary-blue{
+    color: var(--text-primary-blue);
+}
+
+.text-primaty-green{
+    color: var(--text-primaty-green)
+}
+
+.border-primary-green{
+    border-color: var(--bg-primary-green);
+}
+
+.inner-shadow{
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.33) inset;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.33) inset;
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.33) inset;
+}

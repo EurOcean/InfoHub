@@ -1,0 +1,39 @@
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Project",
+    "contractNumber": "",
+    "acronym": "",
+    "title": "",
+    "programme": "",
+    "projectFunding": "",
+    "summary": "",
+    "webSite": "",
+    "startYear": "",
+    "endYear": "",
+    "participants": "",
+    "owns": [
+        {
+            "@type": "Organization",
+            "@idInstitution": "",
+            "legalName": "",
+            "acronym": "",
+            "latitude": "",
+            "longitude": "",
+            "email": "",
+            "url" : "",
+            "telephone": "",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "",
+                "postalCode": "",
+                "addressLocality": ""
+            }
+        },
+        {
+            "coordinatorName": "",
+            // "coordinatorCountry": ""
+        }
+    ],
+}
+</script>

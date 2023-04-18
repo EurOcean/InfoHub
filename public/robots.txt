@@ -1,0 +1,3 @@
+Sitemap: https://infohub.eurocean.net/sitemap.xml
+User-agent: *
+Disallow: /

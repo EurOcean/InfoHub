@@ -1,0 +1,29 @@
+[
+  {
+    "ID": 1,
+    "Name": "Coordinator",
+    "Description": null,
+    "Created": "2017-10-27T15:29:58.317",
+    "CreatedBy": 1,
+    "LastUpdt": "2017-10-27T15:29:58.317",
+    "LastUpdtBy": 1
+  },
+  {
+    "ID": 2,
+    "Name": "Partner",
+    "Description": null,
+    "Created": "2017-10-27T15:29:58.317",
+    "CreatedBy": 1,
+    "LastUpdt": "2017-10-27T15:29:58.317",
+    "LastUpdtBy": 1
+  },
+  {
+    "ID": 3,
+    "Name": "Funding",
+    "Description": null,
+    "Created": "2017-10-27T15:29:58.317",
+    "CreatedBy": 1,
+    "LastUpdt": "2017-10-27T15:29:58.317",
+    "LastUpdtBy": 1
+  }
+]
