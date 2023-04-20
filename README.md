@@ -1,21 +1,21 @@
-Infohub - EuroOcean API
+Infohub - EurOcean API
 
-Como instalar:
-Temos que ter instalados php >7, mysql, apache ou nginx, composer.
+How to Install:
+Requirements: php >7, mysql, apache or nginx, composer.
 
-Guia de instalação de servidor:
+Server Installation Guide:
 https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-20-04-es
 
-Guia de instalação de composer e laravel:
+Composer and laravel Installation Guide:
 https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-20-04-es
 
 
-Apos das instalações e configurações preparamos o projeto para correr em local
+After the installations and configurations, we prepare the project to run in local
 
-clonar o repositorio de github:
+clone the github repository:
 git clone -b master gitxxxxxxxx
 
-configurar a ligação a base dados no ficheiro .env 
+configure database connection in .env file:
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=XXXX
@@ -23,7 +23,7 @@ DB_DATABASE=eurocean_infohub
 DB_USERNAME=’username’
 DB_PASSWORD=’password’
 
-corremos o comando: composer install / composer update
-corrermos as migrações e injectamos a data da seeder corremos o comando: php artisan migrate:fresh –seed
-para levantar o sistema corremos: php artisan serve
+Run the command: composer install / composer update
+we run the migrations and inject the seeder data we run the command: php artisan migrate:fresh –seed
+To put the system live run: php artisan serve
 # InfoHub
