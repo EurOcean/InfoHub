@@ -185,7 +185,7 @@
                                             @if ($owner->institution_name === '')
                                                 <p class="text-gray-400">Not available</p>
                                             @else
-                                                <a class="text-blue-500 hover:text-blue-900" href="/organization/{{$owner->id_institution}}">
+                                                <a class="text-blue-500 hover:text-blue-900" href="/vessel-organization/{{$owner->id_institution}}">
                                                     {{ $owner->institution_name }}
                                                 </a>
                                             @endif
@@ -233,7 +233,7 @@
                                             @if ($operator->institution_name === '')
                                                 <p class="text-gray-400">Not available</p>
                                             @else
-                                                <a class="text-blue-500 hover:text-blue-900" href="/organization/{{$operator->id_institution}}">
+                                                <a class="text-blue-500 hover:text-blue-900" href="/vessel-organization/{{$operator->id_institution}}">
                                                     {{ $operator->institution_name }}
                                                 </a>
                                             @endif

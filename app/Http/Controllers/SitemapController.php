@@ -206,14 +206,12 @@ class SitemapController extends Controller
         ->where('rid_rel_infrastructure_institutions.id_infrastructure', $id_infrastructure)
         ->get();
 
-
         $operators = RidRelInfrastructureInstitution::join('rid_infrastructures', 'rid_rel_infrastructure_institutions.id_infrastructure', '=', 'rid_infrastructures.id_infrastructure')
         ->join('rid_institutions', 'rid_rel_infrastructure_institutions.id_institution', '=', 'rid_institutions.id_institution')
         ->join('countries', 'rid_institutions.id_country', '=', 'countries.code')
         ->where('rid_rel_infrastructure_institutions.status', 'Operator')
         ->where('rid_rel_infrastructure_institutions.id_infrastructure', $id_infrastructure)
         ->get();
-
 
         return View::make('sitemapViews.vesselID', compact(['vessel', 'owners', 'operators']));
     }
@@ -310,7 +308,6 @@ class SitemapController extends Controller
     {
         $organization = RidKgMerge::find($id);
         $country = RidKgMerge::join('countries', 'rid_kg_merges.country', '=', 'countries.code')->find($id);
-        // dd($country);
         return View::make('sitemapViews.organizationID', compact(['organization', 'country']));
     }
 
@@ -320,5 +317,11 @@ class SitemapController extends Controller
         $options['path'] = $options['path'] ?? request()->path();
         $items = $items instanceof Collection ? $items : Collection::make($items);
         return new LengthAwarePaginator($items->forPage($page, $perPage), $items->count(), $perPage, $page, $options);
+    }
+
+    public function organizationVesselDetail($id)
+    {
+        $vessel_organizations = RidInstitutions::where('id_institution', '=', $id)->join('countries', 'rid_institutions.id_country', '=', 'countries.code')->first();
+        return View::make('sitemapViews.organization-vesselID', compact(['vessel_organizations']));
     }
 }

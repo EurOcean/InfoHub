@@ -51,6 +51,9 @@ Route::get('organizations', [SitemapController::class, 'organizationsList'])->na
 Route::get('search-organizations', [SitemapController::class, 'searchOrganizations'])->name('searchOrganizations');
 Route::get('organization/{id}', [SitemapController::class, 'organizationDetail'])->name('organizationDetail');
 
+
+Route::get('vessel-organization/{id}', [SitemapController::class, 'organizationVesselDetail'])->name('organizationVesselDetail');
+
 // API DOCS
 Route::get('/api-documentation', [ApiDocsController::class, 'index'])->name('apiDocumentation');
 
