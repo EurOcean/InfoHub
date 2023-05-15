@@ -49,7 +49,6 @@ class SitemapController extends Controller
         $organizationsSearch = Project::join('institutions', 'institutions.id', '=', 'projects.id')->get();
         $organizationTitle = Project::join('institutions', 'institutions.id', '=', 'projects.id')->find($id);
 
-
         $coordinators = ProjectInstitution::join('institutions', 'project_institutions.institutionID', '=', 'institutions.id')
         ->join('rid_kg_merges', 'project_institutions.institutionID', '=', 'rid_kg_merges.id_kg')
         ->join('projects', 'project_institutions.projectID', '=', 'projects.id')
@@ -60,14 +59,7 @@ class SitemapController extends Controller
         ->select('*', 'partnerships.name AS partnership_name', 'institutions.name AS institution_name', 'rid_kg_merges.id AS id_relation')
         ->get();
 
-        // $partners = ProjectInstitution::join('institutions', 'project_institutions.institutionID', '=', 'institutions.id')
-        // ->join('projects', 'project_institutions.projectID', '=', 'projects.id')
-        // ->join('countries', 'institutions.countryID', '=', 'countries.id')
-        // ->join('partnerships', 'project_institutions.partnershipID', '=', 'partnerships.id')
-        // ->where('project_institutions.partnershipID', 2)
-        // ->select('*', 'partnerships.name AS partnership_name', 'institutions.name AS institution_name')
-        // ->where('project_institutions.projectID', $id)
-        // ->get();
+        // dd($coordinators);
    
         $partners = ProjectInstitution::join('institutions', 'project_institutions.institutionID', '=', 'institutions.id')
         ->join('rid_kg_merges', 'project_institutions.institutionID', '=', 'rid_kg_merges.id_kg')
@@ -78,6 +70,7 @@ class SitemapController extends Controller
         ->select('*', 'partnerships.name AS partnership_name', 'institutions.name AS institution_name', 'rid_kg_merges.id AS id_relation')
         ->where('project_institutions.projectID', $id)
         ->get();
+        
 
         return View::make('sitemapViews.projectID', compact(['project', 'organizationsSearch', 'organizationTitle', 'rel_project_institutions', 'inst_name', 'programmerID', 'partners', 'coordinators' ]));
     }
@@ -306,9 +299,9 @@ class SitemapController extends Controller
 
     public function organizationDetail($id)
     {
-        $organization = RidKgMerge::find($id);
-        $country = RidKgMerge::join('countries', 'rid_kg_merges.country', '=', 'countries.code')->find($id);
-        return View::make('sitemapViews.organizationID', compact(['organization', 'country']));
+        $organization = RidKgMerge::findOrFail($id);
+        // dd($organization);
+        return View::make('sitemapViews.organizationID', compact(['organization']));
     }
 
     public function paginate($items, $perPage = 50, $page = null, $options = [])
@@ -324,4 +317,5 @@ class SitemapController extends Controller
         $vessel_organizations = RidInstitutions::where('id_institution', '=', $id)->join('countries', 'rid_institutions.id_country', '=', 'countries.code')->first();
         return View::make('sitemapViews.organization-vesselID', compact(['vessel_organizations']));
     }
+    
 }

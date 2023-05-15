@@ -38,16 +38,6 @@
                                 @endif
                             </dd>
                         </div>
-                        <div class="bg-gray-50 px-4 py-2 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                            <dt class="text-sm font-medium text-gray-500">Vat Number:</dt>
-                            <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
-                                @if ( $vessel_organizations->vatNumber === null || $vessel_organizations->vatNumber === '' )
-                                    <p class="text-gray-400">Not available</p>
-                                @else
-                                    <p class="capitalize">{{ $vessel_organizations->vatNumber }}</p>
-                                @endif
-                            </dd>
-                        </div>
                         <div class="bg-white px-4 py-2 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                             <dt class="text-sm font-medium text-gray-500">shortName:</dt>
                             <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
